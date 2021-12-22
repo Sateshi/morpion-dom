@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    background: rgb(68,78,103);
+    background: linear-gradient(90deg, rgba(68,78,103,1) 0%, rgba(184,197,230,1) 100%);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.containerGrille{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35vw;
+    height: 35vw;
+}
+
+#grille{
+    display:flex;
+    flex-wrap: wrap;
+    height:100%;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    height: 33%;
+    width: 100%;
+}
+
+.case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:33%;
+    height:100%;
+    border: 1px solid white;
+    color: white;
+    font-size: 8em;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
